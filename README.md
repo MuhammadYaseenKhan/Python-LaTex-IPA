@@ -9,15 +9,17 @@ It is a very tedious task for the researchers and authors of scientific papers w
  - Python (preferably 3.X)
  
 #### LaTex Packages
- - `tipa`
- - `phonetic`
- - `semtrans`
- - `upgreek`
- 
+- `tipa`
+- `phonetic`
+- `semtrans`
+- `upgreek`
+- `textcomp`
+
  You can add these module in LaTex preamble as: 
 ```
 \usepackage{tipa}
 \usepackage{phonetic}
 \usepackage{semtrans}
 \usepackage{upgreek}
+\usepackage{textcomp}
  ```
